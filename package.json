@@ -1,0 +1,20 @@
+{
+  "name": "eduguide-bot",
+  "version": "1.0.0",
+  "description": "EduGuide Bot - Intelligent educational chatbot",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "groq-sdk": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
